@@ -1,0 +1,34 @@
+.field {
+  margin: 2% auto;
+}
+.field-container {
+  float: left;
+  margin: 0 5% 0 5%;
+  width: 65%;
+}
+.cell {
+  font-size: 36px;
+  height: 50px;
+  text-align: center;
+  width: 50px;
+}
+.commands {
+  float: right;
+  margin-right: 5%;
+  min-width: 180px;
+  width: 15%;
+}
+.commands-list{
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+}
+.marked {
+  color: blue;
+}
+.circle {
+  width: 1%;
+	border: 3px solid;
+	border-radius: 100%;
+	margin: 0 auto;
+}

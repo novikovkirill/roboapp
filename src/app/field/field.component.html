@@ -1,0 +1,24 @@
+<div>
+  	<div class="field-container">
+		<table class="field">
+			<tbody>
+				<tr *ngFor="let cellsRow of field.cells">
+					<td class = "cell" *ngFor="let cell of cellsRow"
+					[class.marked]="cell.marked == true">
+						<div [class.circle]="cell.type == '.'">
+							<span *ngIf="cell.type != '.'">{{cell.type}}</span>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div *ngIf="field.commands" class="commands">
+		<p>Оптимальный маршрут:</p>
+		<div class="commands-list">
+			<p *ngFor="let command of field.commands">
+				{{command}}
+			</p>
+		<div>
+	</div>
+</div>

@@ -1,0 +1,28 @@
+.compute-route-btn {
+  background-color: white;
+  margin: 0 25% 5% 25%;
+  width: 50%;
+  height: 40px;
+  border-radius: 3px;
+}
+.config {
+	margin: 20px;
+}
+.config tr {
+	padding: 15px;
+}
+.config input {
+	border-radius: 3px;
+}
+.config-container {
+	border: 1px solid blue;
+	border-radius: 8px;
+	float: left;
+	margin: 3% 0 0 3%;
+	width: 40%;
+}
+.rules {
+	float: right;
+	margin: 3% 0 0 3%;
+	width: 40%;
+}
